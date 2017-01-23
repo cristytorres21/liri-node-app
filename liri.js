@@ -119,9 +119,5 @@ var pick = function(caseData, functionData) {
     }
 }
 
-//runs argv 1 and 2
-var Run = function(argOne, argTwo) {
-    pick(argOne, argTwo);
-};
-
-Run(process.argv[2], process.argv[3]);
+//run pick with selected arguments
+pick(process.argv[2], process.argv[3]);
