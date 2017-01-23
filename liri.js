@@ -77,7 +77,7 @@ var Omdb = function(movieName) {
             console.log('Plot: ' + jsonData.Plot);
             console.log('Actors: ' + jsonData.Actors);
             console.log('Rotten Tomatoes Rating: ' + jsonData.tomatoRating);
-            console.log('Rotton Tomatoes URL: ' + jsonData.tomatoURL);
+            console.log('Rotten Tomatoes URL: ' + jsonData.tomatoURL);
         }
     });
 
