@@ -1,0 +1,31 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "Language Interpretation & Recognition Interface node app",
+  "main": "liri.js",
+  "dependencies": {
+    "request": "^2.79.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristytorres21/liri-node-app.git"
+  },
+  "keywords": [
+    "node",
+    "twitter",
+    "spotify",
+    "request"
+  ],
+  "author": "Cristy Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristytorres21/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/cristytorres21/liri-node-app#readme"
+}
